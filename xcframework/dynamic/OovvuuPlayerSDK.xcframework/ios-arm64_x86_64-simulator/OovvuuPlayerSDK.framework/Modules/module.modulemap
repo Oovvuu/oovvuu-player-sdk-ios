@@ -1,0 +1,6 @@
+framework module OovvuuPlayerSDK {
+  umbrella header "OovvuuPlayerSDK.h"
+
+  export *
+  module * { export * }
+}
