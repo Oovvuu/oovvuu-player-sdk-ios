@@ -19,7 +19,7 @@ let package = Package(
     targets: [
             .binaryTarget(
                     name: "OovvuuPlayerSDK",
-                    path: "xcframework/dynamic/OovvuuPlayerSDK.xcframework"
+                    path: "xcframework/OovvuuPlayerSDK.xcframework"
                 )
         ]
 )
