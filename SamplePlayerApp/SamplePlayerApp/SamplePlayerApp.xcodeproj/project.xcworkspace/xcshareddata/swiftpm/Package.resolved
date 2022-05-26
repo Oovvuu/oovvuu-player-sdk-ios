@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "oovvuu-player-sdk-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Oovvuu/oovvuu-player-sdk-ios.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "14a7574ab232b325ef4be38531ea4e574b1c2e9c"
+      }
+    }
+  ],
+  "version" : 2
+}
