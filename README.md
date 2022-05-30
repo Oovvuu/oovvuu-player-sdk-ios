@@ -1,7 +1,8 @@
 # oovvuu-player-sdk-ios
 Oovvuu Player SDK for iOS
 
-Manual Installation
+# Manual Installation
+
 To add the Oovvuu Player SDK to your project manually:
 
 1. Download the Oovvuu Player SDK framework.
