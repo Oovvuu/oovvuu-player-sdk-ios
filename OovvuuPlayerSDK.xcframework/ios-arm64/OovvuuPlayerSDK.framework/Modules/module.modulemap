@@ -1,0 +1,11 @@
+framework module OovvuuPlayerSDK {
+  umbrella header "OovvuuPlayerSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module OovvuuPlayerSDK.Swift {
+    header "OovvuuPlayerSDK-Swift.h"
+    requires objc
+}
