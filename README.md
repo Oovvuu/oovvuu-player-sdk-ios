@@ -15,4 +15,4 @@ To add the Oovvuu Player SDK to your project manually:
 8. On the "General" tab of your application target, add GoogleInteractiveMediaAds.framework from the Google IMA download to the list of Frameworks, Libraries, Embedded Content.
 9. On the "Build Settings" tab of your application target, ensure that the "Framework Search Paths" include the paths to the frameworks. This should have been done automatically unless the framework is stored under a different root directory than your project.
 10. On the "Build Settings" tab of your application target:
-11. Ensure that -ObjC has been added to the "Other Linker Flags" build setting.
+  Ensure that -ObjC has been added to the "Other Linker Flags" build setting.
