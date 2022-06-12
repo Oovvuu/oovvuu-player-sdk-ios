@@ -8,7 +8,20 @@ SDK supports version 3.14.4 of the Google IMA SDK for iOS
 
 ### CocoaPods
 
-TBA
+You can use [CocoaPods][cocoapods] to add the Oovvuu Player SDK to your project.  You can find the latest `Oovvuu-Player` podspec [here][podspecs]. The pod will incorporate the correct version of SDK automatically.
+
+CocoaPod Podfile example:
+
+```bash
+source 'https://github.com/Oovvuu/oovvuu-player-sdk-ios.git'
+
+use_frameworks!
+platform :ios, '14.0'
+
+target 'MyTestOovvuuPlayer' do
+  pod 'Oovvuu-Player'
+end
+```
 
 ### Manual
 
@@ -30,3 +43,5 @@ To add the IMA Plugin for Brightcove Player SDK to your project manually:
 [bcovsdkrelease]: https://github.com/brightcove/brightcove-player-sdk-ios/releases
 [bcoveimarelease]: https://github.com/brightcove/brightcove-player-sdk-ios-ima/releases
 [googleima]: https://developers.google.com/interactive-media-ads/docs/sdks/ios/download
+[cocoapods]: http://cocoapods.org
+[podspecs]: https://github.com/Oovvuu/oovvuu-player-sdk-ios/tree/main
